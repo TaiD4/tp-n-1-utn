@@ -10,3 +10,16 @@
   border-radius: 50%;
 
 }
+
+.biografia {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/bg-code.jpg);
+  background-size: cover;
+}
+
+section div {
+  color: white;
+}
