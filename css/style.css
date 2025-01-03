@@ -1,14 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .img-logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-
 }
 
 .biografia {
@@ -16,10 +15,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/bg-code.jpg);
-  background-size: cover;
+  background-image: url("../assets/bg-code.jpg");
 }
 
-section div {
-  color: white;
+.cont-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.cont-formaciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
